@@ -96,6 +96,11 @@
       flex-wrap: wrap;
     }
 
+    .mobile {
+      display: none;
+    }
+
+
     @media (max-width: 500px) {
       .hero-banner {
         height: 20vh;
@@ -120,6 +125,14 @@
       transform: scale(1.02);
       transition: .5s;
     }
+
+    .laptop {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+    }
       
     }
 
@@ -142,11 +155,21 @@
 
     <!-- Top banner --> 
     <div>
-      <div>
+      <div class="laptop">
         <img
           src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243057/landingPages/Ramadan%2012_03_2024/pic-01.png"
           alt="Flashales"
-          class="hero-banner"
+          style="width: 100%; height: 100%;"
+        />
+      </div>
+    </div>  
+
+    <div>
+      <div class="mobile">
+        <img
+          src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710417171/landingPages/Ramadan%2012_03_2024/Ramadan_Special_mobile.jpg"
+          alt="Flashales"
+          style="width: 100%; height: 100%;"
         />
       </div>
     </div>  
@@ -174,19 +197,29 @@
     <img
     src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243056/landingPages/Ramadan%2012_03_2024/pic-04.jpg"
     alt="easter deals"
-    style="width: 100%; padding: 8px; background-color: #fff;"
+    style="width: 100%; padding: 8px;"
     />
     </a>
   </div>
 </div>  
 
-<div>
+<div class="laptop">
   <a href="https://www.konga.com/search?search=MobileDeals">
   <img
   src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710410624/landingPages/Ramadan%2012_03_2024/ramadan_flash_sales.png"
   alt="easter deals"
-  style="width: 100%;"
-  class="hero-banner"
+  style="width: 100%; height: 100%;"
+  />
+  </a> 
+</div> 
+
+
+<div class="mobile">
+  <a href="https://www.konga.com/search?search=MobileDeals">
+  <img
+  src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710417129/landingPages/Ramadan%2012_03_2024/mobile-banner.jpg"
+  alt="easter deals"
+  style="width: 100%; height: 100%;"
   />
   </a> 
 </div> 
