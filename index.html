@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+
+      *,
+      *::before,
+      *::after {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+      }
+
+      html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+      }
+
+      body {
+        overflow-y: scroll !important;
+        scrollbar-width: none !important;
+        -ms-overflow-style: none;
+      }
+
+      .body::-webkit-scrollbar {
+        display: none;
+      }
+
+     section{
+        padding: 0 !important;
+        margin:0 !important;
+        min-height: 0 !important;
+      }
+
+    .hero-banner {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    @keyframes blink {
+      20% {
+        opacity: .15;
+      }
+      100% {
+        opacity: .85;
+      }
+    }
+
+    .header-text {
+      width: 100%;
+      text-align: center;
+      background-color: #680065; /* 2A8E8B  ED017F */
+      color: #fff;
+    }
+
+    .header-text h2 {
+      color: white;
+      font-size: 42px;
+      font-weight: 600;
+      padding: 8px 0px;
+      margin-top: 14px;
+    } 
+    
+    .cards {
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    }
+  
+    .cards img {
+      width: 100%;
+      height: 100%;
+    } 
+
+    .cards img:hover {
+      transform: scale(1.05);
+      transition: .5s;
+    }
+
+    .flexbox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 500px) {
+      .hero-banner {
+        height: 20vh;
+      }
+
+      .same-row {
+        display: block !important;
+      }
+
+      .hide-on-mobile {
+        display: none;
+      }
+
+      .cards {
+        width: 100% !important;
+        margin: 10px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+      }
+
+      .cards img:hover {
+      transform: scale(1.02);
+      transition: .5s;
+    }
+      
+    }
+
+    @media only screen and (max-width: 900px) and (min-width: 300px) {
+      .header-text h2 {
+        font-size: 24px;
+        font-weight: 500;
+        padding: 4px 0px;
+        margin-top: 14px;
+      }
+
+      .cards {
+        width: 47%;
+        margin: 10px;
+        padding: 10px 20px;
+      }
+
+      .elog {
+        margin-left: 10px !important;
+      }
+
+    }
+  </style>
+  <body>
+
+    <!-- Top banner --> 
+    <div>
+      <div>
+        <img
+          src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243057/landingPages/Ramadan%2012_03_2024/pic-01.png"
+          alt="Flashales"
+          class="hero-banner"
+        />
+      </div>
+    </div>  
+
+    
+
+  </body>
+</html>
+
+
+
+
+<div class="same-row" style="width: 100%; display: flex; justify-content: center;">
+  <div class="hide-on-mobile">
+    <a href="https://www.konga.com/search?search=MobileDeals">
+    <img
+    src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243055/landingPages/Ramadan%2012_03_2024/pic-03.png"
+    alt="easter deals"
+    style="width: 100%; padding: 8px;"
+    />
+    </a>
+  </div>
+  <div>
+    <a href="https://www.konga.com/search?search=LightsOn_">
+    <img
+    src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243056/landingPages/Ramadan%2012_03_2024/pic-04.jpg"
+    alt="easter deals"
+    style="width: 100%; padding: 8px; background-color: #fff;"
+    />
+    </a>
+  </div>
+</div>  
+
+<div>
+  <a href="https://www.konga.com/search?search=MobileDeals">
+  <img
+  src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710410624/landingPages/Ramadan%2012_03_2024/ramadan_flash_sales.png"
+  alt="easter deals"
+  style="width: 100%; padding: 8px;"
+  class="hero-banner"
+  />
+  </a> 
+</div> 
+
+<!-- Ramadan Packages -->
+<div>
+  <div class="header-text">
+    <h2>Ramadan Packages</h2>
+  </div>
+</div>
+
+<div class="flexbox">
+  <div class="cards">
+    <a href="https://www.konga.com/category/beverages-582">
+        <img src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243052/landingPages/Ramadan%2012_03_2024/Card-01.png" alt="Beverages Category"/>
+    </a>    
+  </div>
+  <div class="cards">
+    <a href="https://www.konga.com/category/processed-foods-588">
+        <img src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243053/landingPages/Ramadan%2012_03_2024/Card-02.png" alt="Processed Food Category"/>
+    </a>    
+  </div>
+  <div class="cards">
+    <a href="https://www.konga.com/search?search=Quaran">
+        <img src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243038/landingPages/Ramadan%2012_03_2024/Card-03.png" alt="Quran Category"/>
+    </a>    
+  </div>
+  <div class="cards">
+    <a href="https://www.konga.com/category/fragrances-6">
+        <img src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243038/landingPages/Ramadan%2012_03_2024/Card-04.png" alt="Fragrances Category"/>
+    </a>    
+  </div>
+  <div class="cards">
+    <a href="https://www.konga.com/category/electronics-5261">
+        <img src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243038/landingPages/Ramadan%2012_03_2024/Card-05.png" alt="Electronics Category"/>
+    </a>    
+  </div>
+  <div class="cards">
+    <a href="https://www.konga.com/category/home-kitchen-602">
+        <img src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710243038/landingPages/Ramadan%2012_03_2024/Card-06.png" alt="Home & Kitchen Category"/>
+    </a>    
+  </div>
+</div>
+
+
+
+<div>
+  <a href="https://www.konga.com/search?search=MobileDeals">
+  <img
+  src="https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto/v1710410620/landingPages/Ramadan%2012_03_2024/Making_dua.png"
+  alt="easter deals"
+  style="width: 100%; height: 100%;"
+  class="elog"
+  />
+  </a> 
+</div> 
